@@ -2,6 +2,8 @@
 # Regexz Python Script
 # handroll with just standard libraries
 
-text = input("Please enter the string to check: ")
+regex_input = input("Please enter your regex statement: ")
+string_input = input("Please enter your string to match: ")
 
-print(text)
+print("your regex statement is",regex_input)
+print("your string is",string_input)
